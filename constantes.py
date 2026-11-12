@@ -16,7 +16,7 @@ MODELES = {
     "PairesHybrides": ["deepseek/deepseek-v4.1-flash-1017", "mistralai/mistral-small-2603", 
                        "qwen/qwen3.6-27b", "google/gemma-4-31b-it", "anthropic/claude-sonnet-5.5"],
     "PetitsModeles": ["nvidia/nemotron-3-nano-30b-a3b", "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-                      "liquid/lfm-2.5-1.2b-thinking:free"],
+                      "liquid/lfm-3-1.7b"],
     "GrosSansThinking": ["mistralai/mistral-large-2512", "meta-llama/llama-4-maverick", 
                          "qwen/qwen3-next-80b-a3b-instruct"],
     "ThinkingSansCode": ["google/gemini-4-argon", "openai/gpt-6-astra",
@@ -25,5 +25,5 @@ MODELES = {
                           "minimax/minimax-m3.1-flash", "tencent/hy4"],
     "BudgetHautVolume": ["openai/gpt-6-luna", "stepfun/step-5-preview", "z-ai/glm-5.3-flash",
                          "deepseek/deepseek-v4.1-flash-1017"],
-    "ReferencesHistoriques": ["deepseek/deepseek-r1", "qwen/qwq-32b", "openai/o3"]
+    "ReferencesHistoriques": ["deepseek/deepseek-r1-0528", "openai/o3"]
 }
