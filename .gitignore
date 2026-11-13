@@ -3,3 +3,4 @@ cle_openrouter.txt
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+.DS_Store
