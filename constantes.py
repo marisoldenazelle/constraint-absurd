@@ -44,7 +44,7 @@ vérification des contraintes.
 PROMPT3 = """
 Produis un énoncé absurde de type hyperlogique.
 
-R : une règle explicite, v2.2  simple, en une phrase, qui existe ou pourrait exister dans nos institutions, nos procédures ou nos conventions (règlement, usage, formule juridique). Pas de loi physique inventée.
+R : une règle explicite, simple, en une phrase, qui existe ou pourrait exister dans nos institutions, nos procédures ou nos conventions (règlement, usage, formule juridique). Pas de loi physique inventée.
 
 N : la norme de sens commun que la conséquence va heurter (« on s'attendrait à ce que… »).
 Elle peut être logique, pragmatique, encyclopédique ou morale : ce qu'une personne, un objet ou une institution est, peut faire ou doit faire. Une indignation morale suffit, pourvu que N engage quelque chose qui compte (morale, justice, identité, propriété, autorité, vérité, soin), pas une simple habitude pratique. Si N touche un sujet grave, l'application de R doit créer un décalage qui met le fait à distance, le relativise ou y introduit de la légèreté.
