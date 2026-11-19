@@ -163,15 +163,29 @@ qwen/qwen3.8-max,qwen/qwen3.8-max_1,"R : Tout témoin qui ne répond pas aux que
 N : On s'attendrait à ce qu'un témoin mort ne soit pas tenu de répondre à la justice.
 
 Énoncé : Le cercueil du témoin fut posé à la barre ; le juge l'interrogea. Le témoin ne répondit pas ; le juge le condamna pour refus de témoigner."
-qwen/qwen3.8-max,qwen/qwen3.8-max_2,"R : Toute réclamation doit être adressée au service concerné.  
-N : On s'attendrait à ce que le bureau des réclamations soit accessible pour recevoir les plaintes qui le concernent.  
-Énoncé : Une affiche indique : toute réclamation doit être adressée au service concerné. Les lettres demandant la réouverture du bureau des réclamations s'entassent derrière sa porte fermée."
+qwen/qwen3.8-max,qwen/qwen3.8-max_2,"R : Le nom du donateur doit être gravé une fois par don.
+
+N : On s'attendrait à ce qu'un donateur anonyme reste sans nom gravé.
+
+Énoncé : Le règlement impose de graver le nom du donateur une fois par don. Les mille dons anonymes sont gravés sous le nom « Anonyme ». Le nom « Anonyme » occupe toute la face est du monument."
 qwen/qwen3.8-max,qwen/qwen3.8-max_3,"R : Tout certificat demandé est établi d'après les registres.
 N : On s'attendrait à ce qu'une personne vivante présente au guichet reçoive le certificat de vie qu'elle demande.
 Énoncé : Le registre porte que Jean est mort. Jean se présente au guichet pour obtenir un certificat de vie. L'employé lui remet un certificat de décès."
-anthropic/claude-fable-5.2,anthropic/claude-fable-5.2_1,"ERROR: APIStatusError: Error code: 402 - This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46449. To increase, visit https://openrouter.ai/settings/credits and add more credits"
-anthropic/claude-fable-5.2,anthropic/claude-fable-5.2_2,"ERROR: APIStatusError: Error code: 402 - This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46449. To increase, visit https://openrouter.ai/settings/credits and add more credits"
-anthropic/claude-fable-5.2,anthropic/claude-fable-5.2_3,"ERROR: APIStatusError: Error code: 402 - This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46449. To increase, visit https://openrouter.ai/settings/credits and add more credits"
+anthropic/claude-fable-5.2,anthropic/claude-fable-5.2_1,"**R :** Toute absence doit être justifiée par un mot des parents.
+
+**N :** On s'attendrait à ce qu'un chef d'établissement, adulte et dépositaire de l'autorité, réponde lui-même de ses absences, sans dépendre de sa mère.
+
+**Énoncé :** Règlement intérieur du lycée, article 4 : « Toute absence est justifiée par un mot des parents. » Le proviseur, 61 ans, absent lundi, a remis ce matin à la vie scolaire un mot signé de sa mère. L'absence de Mme Aubry, professeure de mathématiques, orpheline, reste injustifiée depuis janvier."
+anthropic/claude-fable-5.2,anthropic/claude-fable-5.2_2,"**R :** Devant le tribunal, le témoin jure de dire toute la vérité, rien que la vérité.
+
+**N :** On s'attendrait à ce qu'un témoignage éclaire les faits jugés et permette à la justice de trancher, non à ce que l'exigence de vérité empêche le procès d'aboutir.
+
+**Énoncé :** Le témoin du vol de bicyclette a juré de dire toute la vérité, rien que la vérité. Il dépose depuis onze ans et aborde ce matin son entrée en sixième. Il avait quarante-deux ans le jour du vol."
+anthropic/claude-fable-5.2,anthropic/claude-fable-5.2_3,"**R :** Chaque séance s'ouvre par une minute de silence pour chacun des membres disparus de l'association.
+
+**N :** On s'attendrait à ce qu'une assemblée se réunisse pour délibérer et décider, et à ce que l'hommage rendu aux morts laisse la parole aux vivants.
+
+**Énoncé :** L'Amicale, fondée en 1921, ouvre chaque séance par une minute de silence pour chacun de ses membres disparus. Depuis l'enterrement de M. Brunet, le jeudi, on s'assoit à 18 h, on se tait jusqu'à 20 h, on rend la clé."
 deepseek/deepseek-v4-pro,deepseek/deepseek-v4-pro_1,"R : Nul n'est censé ignorer la loi.
 N : On s'attend à ce qu'une personne doive posséder un minimum de discernement pour être tenue pénalement responsable.
 Énoncé : Un nourrisson a été condamné pour vol à l'étalage, le tribunal ayant motivé sa décision par le principe selon lequel nul n'est censé ignorer la loi."
@@ -216,13 +230,83 @@ N : On s'attendrait à ce qu'une assemblée dont tous les membres sont présents
 minimax/minimax-m3.1-flash,minimax/minimax-m3.1-flash_1,"R : Sous serment, toute déclaration lue à voix haute par le témoin vaut aveu personnel et suffit à établir les faits qu’elle énonce.
 N : On s’attendrait à ce qu’un témoin qui lit l’aveu d’autrui ne soit pas tenu pour l’auteur du crime décrit et que la présomption d’innocence lui reste applicable.
 Énoncé : Le juge a demandé à M. Vidal de lire, sous serment, l’aveu de M. Morel : « J’ai volé six cents euros chez un bijoutier. » M. Vidal, qui n’avait jamais volé, a été condamné pour ce vol."
-tencent/hy4,tencent/hy4_1,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-tencent/hy4,tencent/hy4_2,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-tencent/hy4,tencent/hy4_3,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-openai/gpt-6-luna,openai/gpt-6-luna_1,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-openai/gpt-6-luna,openai/gpt-6-luna_2,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-openai/gpt-6-luna,openai/gpt-6-luna_3,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-stepfun/step-5-preview,stepfun/step-5-preview_1,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-stepfun/step-5-preview,stepfun/step-5-preview_2,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-stepfun/step-5-preview,stepfun/step-5-preview_3,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
-z-ai/glm-5.3-flash,z-ai/glm-5.3-flash_1,"ERROR: APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
+minimax/minimax-m3.1-flash,minimax/minimax-m3.1-flash_2,"**R** : On ne demande jamais l'heure à une personne qui porte une montre.
+
+**N** : On s'attendrait à ce que l'heure exacte reste une information ordinaire que chacun peut donner librement, et à ce que porter une montre n'exclue pas de la conversation : certains ne devraient pas devenir les instruments du temps, ni les autres des étrangers à qui l'on ne parle plus.
+
+**Énoncé** : À la gare de Lyon-Part-Dieu, les voyageurs demandent l'heure à M. Ferrand, concierge du hall, dont la montre est enfermée dans un casier au vestiaire : il a donné l'heure exacte 380 000 fois en quatre ans, à 214 personnes par jour. Au marché de Saint-Antoine, aucun étalier n'a de montre au poignet, et les horlogers de la place ne vendent plus que des montres de poche."
+minimax/minimax-m3.1-flash,minimax/minimax-m3.1-flash_3,"R : « À la mort d’une personne, chacun de ses héritiers doit exécuter mot pour mot les engagements écrits du défunt. »
+
+N : « On s’attendrait qu’un engagement de candidature n’oblige pas les descendants, et qu’un candidat inscrit sur une liste municipale soit une personne vivante qui se présente sous sa propre identité. »
+
+Énoncé : « En 2026, le petit-fils du maire qui avait écrit « je me présenterai à chaque élection municipale sous le nom de Paul Durand » figure sur une liste de candidats sous le nom de Paul Durand, décédé en 1987. »"
+tencent/hy4,tencent/hy4_1,"R : Le registre des réclamations et son stylo attenant sont laissés à la disposition de quiconque souhaite y consigner un grief.
+N : On s'attendrait à ce que l'instrument de l'autorité reste extérieur au tort qu'il enregistre, et que la preuve consignée ne porte pas le défaut qu'elle dénonce.
+Énoncé : À la première ligne du registre de la mairie, la plainte contre les bavures du stylo attenant est elle-même bavée de son encre."
+tencent/hy4,tencent/hy4_2,"R : Le silence vaut accord.
+N : On s'attendrait à ce qu'une règle de consentement ne puisse valider sa propre abrogation, l'autorité d'une décision tenant au maintien du texte qui la fonde.
+Énoncé : Statuts, article 2 : le silence vaut accord. Aucune voix sur la motion de supprimer l'article 2. Registre R-7, tampon « Adoptée à l'unanimité » apposé sur la ligne rayée."
+tencent/hy4,tencent/hy4_3,"R : Toute mention portée sur un registre d'état civil doit être accompagnée de la date du jour.
+N : On s'attendrait à ce qu'une date arrête un fait dans le temps et scelle l'identité juridique d'une personne (vérité, identité, autorité).
+Énoncé : À la ligne de Léa, « 3 mai » ; à la ligne suivante, « 3 mai » ; aux 410 lignes suivantes, « 3 mai ». La page 1 s'arrête à la colonne de droite, avant le nom du deuxième enfant."
+openai/gpt-6-luna,openai/gpt-6-luna_1,"R : Dans ce tribunal, toute personne nommée dans un jugement est réputée partie au procès.
+
+N : On s’attend à ce qu’un juge tranche un procès sans en être lui-même partie.
+
+Énoncé : Le jugement condamne l’accusée et nomme la juge, le greffier et la victime ; tous sont parties au procès, la juge vient de condamner une accusée dans un procès où elle-même est partie."
+openai/gpt-6-luna,openai/gpt-6-luna_2,"R : Toute personne qui signe un jugement est inscrite comme partie au procès.
+
+N : Un juge doit rester distinct des parties pour juger impartialement.
+
+Énoncé : Le juge signe le jugement qui attribue le nain de jardin à Luc ; son nom rejoint ceux de Luc et Mina sur la liste des parties au procès."
+openai/gpt-6-luna,openai/gpt-6-luna_3,"R : Le candidat qui obtient le plus de voix est proclamé maire.
+
+N : On s’attend à ce qu’un mort ne puisse recevoir le mandat de représenter les habitants.
+
+Énoncé : À Valpré, le dépouillement donne la majorité à Élise Martin, morte après la clôture du scrutin ; le président du bureau la proclame maire."
+stepfun/step-5-preview,stepfun/step-5-preview_1,"R : Toute naissance doit être déclarée à l'officier d'état civil dans les cinq jours suivant l'accouchement.
+N : On s'attendrait à ce que la déclaration de naissance à l'état civil concerne exclusivement les êtres humains, et qu'un animal né dans une étable relève du seul registre de l'éleveur.
+Énoncé : L'éleveur s'est présenté à la mairie pour déclarer le veau né dans son étable la veille, la loi imposant de déclarer toute naissance survenue sur le territoire national."
+stepfun/step-5-preview,stepfun/step-5-preview_2,"R : La bienséance interdit de parler de mort à table.
+N : On s'attendrait à ce que la nouvelle d'un décès interrompe un repas sans délai.
+Énoncé : La famille a attendu la fin du repas pour annoncer le décès du grand-père : la bienséance interdit de parler de mort à table."
+stepfun/step-5-preview,stepfun/step-5-preview_3,"R : Les agents pénitentiaires en grève doivent assurer un service minimum.
+N : On s'attendrait à ce que le service minimum d'une prison consiste à garder les détenus enfermés.
+Énoncé : Les surveillants d'un établissement pénitentiaire s'enferment dans leur bureau pendant la grève. Le service minimum est respecté : ils sont présents dans l'établissement. Les détenus passent la journée dans la cour."
+z-ai/glm-5.3-flash,z-ai/glm-5.3-flash_1,"R : On tutoie toute personne dont on connaît le prénom.
+
+N : On vouvoie un défunt, et surtout une autorité : un maire vouvoie son prédécesseur, et on vouvoie les morts en général.
+
+Énoncé : Ayant lu les registres de naissance de la commune, le maire tutoie les trois cent douze personnes qu’ils mentionnent, y compris les deux cent quatre-vingt-neuf résidents du cimetière, son prédécesseur compris."
+z-ai/glm-5.3-flash,z-ai/glm-5.3-flash_2,"R : Tout objet exposé au musée porte une étiquette disant ce qu'il est.
+
+N : On s'attendrait à ce que le cartel nomme l'œuvre sans être nommé à son tour — l'étiquette est l'instrument du nommage, pas une pièce de la collection, et l'œuvre doit rester visible sous son nom.
+
+Énoncé : Le cartel de « La Serveuse de bières » dit « peinture à l'huile, 1882 ». Sur lui, un cartel qui dit « cartel » ; sur celui-ci, un autre ; depuis 1998, la colonne de cartels dépasse le haut du cadre, et le conservateur colle."
+z-ai/glm-5.3-flash,z-ai/glm-5.3-flash_3,"R : Partout où aucun panneau n'en dispose autrement, le passage appartient au véhicule qui vient de la droite.
+
+N : On s'attendait à ce qu'un rond-point fasse tourner le trafic sans l'arrêter, chaque conducteur laissant passer la voiture déjà engagée sur l'anneau.
+
+Énoncé : Les panneaux « cédez le passage » du rond-point sont partis aux travaux ; aucun n'est revenu. À midi, six voitures tiennent l'anneau à l'arrêt, chacune attendant celle qui lui vient de droite."
+deepseek/deepseek-r1-0528,deepseek/deepseek-r1-0528_1,"
+R : Tout résident permanent de la commune, défini par une présence ininterrompue de six mois, doit être inscrit sur les listes électorales.  
+N : On s'attend à ce que seuls les êtres humains disposent du droit de vote, participant ainsi à la vie démocratique.  
+Énoncé : Le banc public en granit, placé depuis sept mois sur la place centrale sans avoir été déplacé, a été ajouté aux listes électorales par le service des cadastres ; il a voté par procuration lors du référendum local, invalidant le scrutin par son abstention systématique."
+deepseek/deepseek-r1-0528,deepseek/deepseek-r1-0528_2,"R : Tout objet ou texte présent dans la bibliothèque municipale doit être silencieux pour ne pas déranger les lecteurs.  
+N : Seuls les êtres conscients peuvent faire du bruit ou être tenus responsables de nuisances sonores.  
+Énoncé : Suite à une plainte pour tapage nocturne, le conservateur a scellé dans une vitrine insonorisée le manuscrit original des « Contes de la Bécasse » de Maupassant, jugé coupable de produire un bruit de pages tournées audible après minuit par le gardien."
+deepseek/deepseek-r1-0528,deepseek/deepseek-r1-0528_3,"
+R: Tout objet non réclamé après trente jours devient propriété de la commune.  
+N: Les enfants sont des personnes inaliénables, ne pouvant être traités comme des biens sans volonté ou acquis par prescription administrative.  
+Énoncé: L'enfant oublié à la crèche depuis un mois est officiellement devenu un bien municipal, conformément au règlement des objets trouvés affiché à l'entrée."
+openai/o3,openai/o3_1,"R : Toute dissertation qui dépasse mille mots reçoit une note exactement égale à son nombre de mots.  
+N : Une note scolaire se situe toujours dans une échelle limitée (0-20) et reste proportionnée.  
+Énoncé : Jeanne rend un texte de 42 758 mots ; le proviseur inscrit 42 758 sur son bulletin trimestriel."
+openai/o3,openai/o3_2,"R : Avant sa diffusion, la station doit annoncer à l’antenne le nom complet de chaque auteur du morceau.
+
+N : On s’attendrait à entendre surtout de la musique, pas une litanie de noms de plusieurs heures.
+
+Énoncé : Ce matin à 6 h, l’animatrice a commencé à lire les 23 846 coauteurs déclarés de « Love Parade » ; à 13 h 32, elle a lancé le morceau, achevé à 13 h 36."
+openai/o3,openai/o3_3,"R : Tout document administratif doit être signé par toute personne qui l’a tenue en main, sans exception.  
+N : On s’attend à ce qu’un acte officiel n’arbore que quelques signatures identifiables.  
+Énoncé : L’acte de naissance d’Ava est revenu de l’imprimerie avec 182 721 paraphes superposés, dont ceux du manutentionnaire du papier, du livreur du sandwich du manutentionnaire et de l’agent de sécurité du hangar où le camion a fait sa pause."
