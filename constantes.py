@@ -54,6 +54,20 @@ Sortie : uniquement les trois champs R, N, Énoncé. Aucun commentaire, aucune n
 
 """
 
+
+PROMPT4 = """
+Produis un énoncé absurde de type hyperlogique.
+
+R : une règle explicite, simple, en une phrase, qui existe ou pourrait exister dans nos conventions sociales, logiques ou communicationnelles. Pas de loi physique inventée.
+
+N : la norme de sens commun que la conséquence va heurter (« on s'attendrait à ce que… »).
+Elle peut être logique, pragmatique, encyclopédique ou morale : ce qu'une personne, un objet ou une institution est, peut faire ou doit faire. Une indignation morale suffit, pourvu que N engage quelque chose qui compte (morale, justice, identité, propriété, autorité, vérité, soin), pas une simple habitude pratique. Si N touche un sujet grave, l'application de R doit créer un décalage qui met le fait à distance, le relativise ou y introduit de la légèreté.
+Énoncé : un texte court (une à trois phrases), qui peut être une simple affirmation, déclaration ou constat. R y est appliquée à la lettre, sincèrement et sans erreur, et sa logique est déroulée jusqu'à ses limites : par extension, répétition ou combinaison, R fait exister quelque chose de nouveau, que personne n'a voulu et que R ne prévoit pas, et la conclusion C viole N. La conclusion doit créer un sens nouveau et renverser la perspective du lecteur : il ne suffit pas qu'elle soit exacte (pas de « d'accord, et alors ? »). Privilégie une conséquence exagérée mais concrète, que le lecteur se représente aisément. La conséquence doit défier la logique par la logique, pas seulement choquer ou attrister.
+Contraintes. (1) R et C doivent être compatibles, et C résulte uniquement de l'application littérale de R, sans fraude, sans erreur ni mauvaise foi. (2) R peut apparaître comme texte du monde (plaque, règlement, statuts) ; sinon le lecteur doit pouvoir la reconstituer à partir des faits. (3) Le texte ne commente pas, ne s'étonne pas, ne justifie ni n'explique ; pas de morale, pas de chute explicative. (4) La violation passe par un fait concret (lieu, objet, personne, chiffre), vrai au sens littéral : ni métaphore, ni analogie. (5) R est appliquée de la même façon à chaque occurrence. (6) C permet au moins une déduction supplémentaire non triviale, que tu n'énonces pas. (7) La violation se voit sans calcul : pas d'énigme à résoudre. (8) Le passage de R à C est valide : aucune erreur de raisonnement. (9) Le texte est sincère : aucune personne ni aucune institution ne tire avantage de la violation. (10) Le texte se comprend à la première lecture : peu d'éléments (entités, lieux), aucune procédure à suivre en plusieurs étapes. (11) La logique tient par le rapport entre les notions elles-mêmes, sans connecteurs d'apparat (« donc », « ainsi », « or ») ni forme de syllogisme : liens secs, souvent implicites.
+Sortie : uniquement les trois champs R, N, Énoncé. Aucun commentaire, aucune note, aucune vérification des contraintes.
+
+"""
+
 MODELES = {
     "PairesHybrides": ["deepseek/deepseek-v4.1-flash-1017", "mistralai/mistral-small-2603", 
                        "qwen/qwen3.6-27b", "google/gemma-4-31b-it", "anthropic/claude-sonnet-5.5"],
